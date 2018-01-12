@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- 6
+- 8
+deploy:
+  provider: npm
+  email: karim@alibhai.co
+  api_key:
+    secure: iYFtCYdUsUHc0PymWNseTFJcUfbY4xmxjtQmj2ltX810+kfcy4e/tl5ZeX9JpO8Nwg1QeR5/upN0yuz+JUCYnQ/NhKtkF/RBM3yXXW7XEUq1FhL+BqkXNwFmyQGisfwv6k47RhmIk3YByMlVOjd/yJSvmJpzSC6NGNS+1iYlktZ2/oPnizg9rn5nQuAV4AJcZwFJExZ/xF/tNG5aaX0ZxdGL6kdMgQxgSxorj+cbL4Vtt1sCEXSTsCbZ7f3vnDh1HHDjjSxocFBbO5CbPWy7f/uxlKzVexYGSGQrvYjPH+l9TqSB15cs0/+VYwIRPOzTzir2kSqhYXFwTTzTftd59n0RCBvOCBzYJhuFGCF2uJiTXQ+NoBEy2zY7ENLU7oOvjpWwM49LvuEWJCHYQbOnexG/9STnDaWEzQ2WCV5ED0tC9kmmtT4rIdUqsHY+Gfot0VH1i0J+3vJ5KlnfnjpuUQbeLmWULksQYyVuXHMJh9bU11MM+atZ428YKFxWiRBmG9UWrzig145JL3xDMjek/NebWxs7VqNxXyAvixfGVXYINlti9WlrUqfwORmzy35V0zUJOhKxxhHR1pYJV9XAFluJdiGQH9NEHzk1g2uWFMN0O1BFPpjB62Pj/6lBPWraz8PHAA4vLMPOPR2u2u2ZPWgqkyKAiDgU/KEi4ZWtoZ0=
+  on:
+    tags: true
+    repo: FoKo/tick
