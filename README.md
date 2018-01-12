@@ -1,4 +1,4 @@
-# Tick
+# Tick [![Build Status](https://travis-ci.org/FoKo/tick.svg?branch=master)](https://travis-ci.org/FoKo/tick)
 
 Utilities for working with dates indifferent to timezone.
 
