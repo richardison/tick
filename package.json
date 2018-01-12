@@ -1,0 +1,42 @@
+{
+  "name": "@foko/tick",
+  "version": "0.0.1",
+  "description": "Utilities for working with Dates indifferent to timezone.",
+  "main": "lib/index.js",
+  "ava": {
+    "files": [
+      "test/**/*.test.js"
+    ],
+    "source": [
+      "index.js",
+      "lib/**/*.js"
+    ],
+    "powerAssert": true
+  },
+  "scripts": {
+    "lint": "standardx",
+    "pretest": "npm run lint",
+    "test": "nyc ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoKo/tick.git"
+  },
+  "keywords": [
+    "date",
+    "util",
+    "manipulation",
+    "math"
+  ],
+  "author": "FoKo Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FoKo/tick/issues"
+  },
+  "homepage": "https://github.com/FoKo/tick#readme",
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "nyc": "^11.4.1",
+    "standardx": "^1.0.3"
+  }
+}
