@@ -4,7 +4,7 @@
  * @copyright 2018-present Foko Inc. All rights reserved.
  */
 
-module.exports = function is(t, a, b, msg) {
+module.exports = function is (t, a, b, msg) {
   const datA = {
     date: new Date(a),
     ts: a

@@ -1,6 +1,5 @@
 const test = require('ava')
 const Tick = require('../')
-const $ = require('./utils/constants')
 
 test('should be able to figure out valid timestamps', t => {
   t.notThrows(() => Tick.assert(0))

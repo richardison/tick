@@ -1,6 +1,5 @@
 const test = require('ava')
 const Tick = require('../')
-const $ = require('./utils/constants')
 
 test('should be able to create a date', t => {
   t.is(Tick.date(new Date(0)), 0, 'should be able to create from a Date')
