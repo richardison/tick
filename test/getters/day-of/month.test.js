@@ -1,11 +1,11 @@
 const test = require('ava')
-const Tick = require('../../')
-const $ = require('../utils/constants')
+const Tick = require('../../../')
+const $ = require('../../utils/constants')
 
 test('should be able to figure out day of month for Jan 1', t => {
   function assert (date) {
     const today = date
-    const tomorrow = date + Tick.Day
+    const tomorrow = date + Tick.$.Day
 
     t.is(
       Tick.getDayOfMonth(today) + 1,
