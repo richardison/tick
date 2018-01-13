@@ -8,6 +8,6 @@ test('should be able to figure out the month of year', t => {
 })
 
 test('should be able to figure out the month of year', t => {
-  t.is(Tick.getMonthString($.TODAY), 'January', 'today, the month is January')
-  t.is(Tick.getMonthString($.TOMORROW), 'January', 'tomorrow, the month will still be January')
+  t.is(Tick.getMonth.asString($.TODAY), 'January', 'today, the month is January')
+  t.is(Tick.getMonth.asString($.TOMORROW), 'January', 'tomorrow, the month will still be January')
 })

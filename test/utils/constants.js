@@ -10,6 +10,15 @@ const date = require('../../lib/date')
 exports.TODAY = date('Thu Jan 11 2018 17:49:21 GMT-0500 (EST)')
 exports.TOMORROW = date('Fri Jan 12 2018 17:49:21 GMT-0500 (EST)')
 
+// a consecutive week
+exports.SUNDAY = date('Sun Jan 07 2018 17:49:21 GMT-0500 (EST)')
+exports.MONDAY = date('Mon Jan 08 2018 17:49:21 GMT-0500 (EST)')
+exports.TUESDAY = date('Tue Jan 09 2018 17:49:21 GMT-0500 (EST)')
+exports.WEDNESDAY = date('Wed Jan 10 2018 17:49:21 GMT-0500 (EST)')
+exports.THURSDAY = date('Thu Jan 11 2018 17:49:21 GMT-0500 (EST)')
+exports.FRIDAY = date('Fri Jan 12 2018 17:49:21 GMT-0500 (EST)')
+exports.SATURDAY = date('Sat Jan 13 2018 17:49:21 GMT-0500 (EST)')
+
 // Jan 1
 exports.START_OF_JAN_2017 = date('Mon Jan 01 2018 17:49:21 GMT-0500 (EST)')
 exports.START_OF_START_OF_JAN_2017 = date('Mon Jan 01 2018 00:00:00 GMT-0500 (EST)')
