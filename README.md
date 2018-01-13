@@ -1,4 +1,4 @@
-# Tick [![Build Status](https://travis-ci.org/FoKo/tick.svg?branch=master)](https://travis-ci.org/FoKo/tick) [![codecov](https://codecov.io/gh/FoKo/@foko/tick/branch/master/graph/badge.svg)](https://codecov.io/gh/FoKo/@foko/tick) [![Greenkeeper badge](https://badges.greenkeeper.io/FoKo/@foko/tick.svg)](https://greenkeeper.io/)
+# Tick [![Build Status](https://travis-ci.org/FoKo/tick.svg?branch=master)](https://travis-ci.org/FoKo/tick) [![codecov](https://codecov.io/gh/FoKo/tick/branch/master/graph/badge.svg)](https://codecov.io/gh/FoKo/tick) [![Greenkeeper badge](https://badges.greenkeeper.io/FoKo/tick.svg)](https://greenkeeper.io/)
 
 Utilities for working with dates indifferent to timezone.
 
