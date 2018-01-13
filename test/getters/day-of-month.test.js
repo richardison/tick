@@ -3,9 +3,20 @@ const Tick = require('../../')
 const $ = require('../utils/constants')
 
 test('should be able to figure out day of month for Jan 1', t => {
-  t.is(Tick.getDayOfMonth($.START_OF_JAN_2017), 1, 'should be able to figure out day of month from mid-day')
-  t.is(Tick.getDayOfMonth($.START_OF_START_OF_JAN_2017), 1, 'should be able to figure out day of month from start-day')
-  t.is(Tick.getDayOfMonth($.END_OF_START_OF_JAN_2017), 1, 'should be able to figure out day of month from end-day')
+  function assert (date) {
+    const today = date
+    const tomorrow = date + Tick.Day
+
+    t.is(
+      Tick.getDayOfMonth(today) + 1,
+      Tick.getDayOfMonth(tomorrow),
+      'tomorrow should be one more than today (not offset by a timezone)'
+    )
+  }
+
+  assert($.START_OF_JAN_2017)
+  assert($.START_OF_START_OF_JAN_2017)
+  assert($.END_OF_START_OF_JAN_2017)
 })
 
 test('should be able to figure out day of month for Jan 1', t => {
